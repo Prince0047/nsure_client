@@ -1,0 +1,57 @@
+$h1color: red;
+$navfontSize: 18px;
+
+.header {
+  // background: transparent;
+  width: 100%;
+  // margin: 10px 35px;
+  //   display: flex;
+  display: grid;
+  grid-template-columns: 1fr 4fr 0.3fr;
+  // background-color: pink;
+}
+
+.head--logo {
+  height: 90px;
+}
+
+.logo--img {
+  height: 100%;
+  width: 60%;
+}
+
+.navh {
+  display: block !important;
+  float: right;
+  margin-top: 20px;
+  // margin-right: 10px;
+}
+.nav--list {
+  display: flex;
+  float: right;
+  list-style: none;
+  font-size: $navfontSize;
+}
+
+.nav--list--item {
+  margin-right: 25px;
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(65, 89, 89);
+  }
+  :hover {
+    color: coral;
+  }
+
+  h5 {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(65, 89, 89);
+    // color: rgb(65, 89, 89);
+  }
+  :hover {
+    color: coral;
+    cursor: pointer;
+  }
+}

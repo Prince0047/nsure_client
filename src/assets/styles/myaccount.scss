@@ -1,0 +1,27 @@
+.myaccount {
+  display: flex;
+  //   flex-direction: column;
+  justify-content: center;
+}
+
+.myaccount-container {
+  width: 80%;
+}
+
+.rating {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.rating-form {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.rating-scale {
+  margin-bottom: 30px;
+}
+
+.rating-submit {
+  float: right;
+}

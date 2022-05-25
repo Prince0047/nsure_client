@@ -1,0 +1,46 @@
+.beneficiary-container {
+  display: flex;
+  justify-content: center;
+}
+
+.beneficiary-form {
+  width: 80%;
+  padding: 20px 10px;
+  //   background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.beneficiary-list {
+  width: 80%;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.beneficiary-input-form {
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.add {
+  :hover {
+    background-color: rgb(46, 219, 144);
+  }
+}
+
+.next {
+  float: right;
+  margin: 40px 220px;
+
+  Button {
+    background-color: rgb(46, 219, 144);
+  }
+}

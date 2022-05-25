@@ -1,0 +1,17 @@
+.policy {
+  display: flex;
+  justify-content: center;
+
+  .heading {
+    text-align: center;
+  }
+}
+
+.policy-container {
+  width: 80%;
+}
+
+.policy-card {
+  margin: 20px;
+  background-color: rgb(170, 232, 242) !important;
+}
